@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HelloWorld-bs
+  description: Test av template
+  annotations: 
+    github.com/project-slug: chriken/helloworld-bs
+    backstage.io/source-ref: "https://github.com/chriken/helloworld-bs"
+    backstage.io/techdocs-ref: url:https://github.com/chriken/helloworld-bs
+    backstage.io/github-actions-id: https://github.com/chriken/helloworld-bs
+spec:
+  type: service
+  lifecycle: experimental
+  owner: chriken
